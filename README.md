@@ -36,19 +36,19 @@ I specialize in the intersection of **Cloud Engineering** and **Agentic AI**. My
 ### 🌟 Featured Engineering Solutions
 *These are my "Golden Repos"—production-grade implementations of scalable architecture.*
 
-#### 🏗️ [Project Name 1 - e.g., Scalable 3-Tier AWS Architecture]
+#### 🏗️ [Project 1: Scalable 3-Tier AWS Architecture]
 *   **The Problem:** High manual configuration time and inconsistent environments.
 *   **The Solution:** Built a modular Terraform framework to automate VPC, Public/Private subnets, and ALB.
 *   **The Result:** Reduced infrastructure setup time by ~60% and ensured 100% environment parity.
 *   👉 [Link to Repo]
 
-#### 🤖 [Project Name 2 - e.g., Agentic AI Ops Workflow]
+#### 🤖 [Project 2 - Agentic AI Ops Workflow]
 *   **The Problem:** Repetitive manual auditing of IaC security vulnerabilities.
 *   **The Solution:** Integrated an AI agent (Claude/LangChain) to automatically scan Terraform files for security gaps.
 *   **The Result:** Increased security compliance and reduced manual review hours per sprint.
 *   👉 [Link to Repo]
 
-#### 🚢 [Project Name 3 - e.g., Resilient K8s Cluster Deployment]
+#### 🚢 [Project 3 - Resilient K8s Cluster Deployment]
 *   **The Problem:** Frequent application crashes during traffic spikes.
 *   **The Solution:** Implemented a Kubernetes cluster with Horizontal Pod Autoscaling (HPA) and proactive Datadog monitoring.
 *   **The Result:** Achieved 99.9% uptime during peak loads.
