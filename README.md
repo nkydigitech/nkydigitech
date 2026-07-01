@@ -36,23 +36,53 @@ I specialize in the intersection of **Cloud Engineering** and **Agentic AI**. My
 ### 🌟 Featured Engineering Solutions
 *These are my "Golden Repos"—production-grade implementations of scalable architecture.*
 
-#### 🏗️ [Project 1: Scalable 3-Tier AWS Architecture]
-*   **The Problem:** High manual configuration time and inconsistent environments.
-*   **The Solution:** Built a modular Terraform framework to automate VPC, Public/Private subnets, and ALB.
-*   **The Result:** Reduced infrastructure setup time by ~60% and ensured 100% environment parity.
-*   👉 [Link to Repo]
+Real projects. Real deployments. Live in production.
 
-#### 🤖 [Project 2 - Agentic AI Ops Workflow]
-*   **The Problem:** Repetitive manual auditing of IaC security vulnerabilities.
-*   **The Solution:** Integrated an AI agent (Claude/LangChain) to automatically scan Terraform files for security gaps.
-*   **The Result:** Increased security compliance and reduced manual review hours per sprint.
-*   👉 [Link to Repo]
+---
 
-#### 🚢 [Project 3 - Resilient K8s Cluster Deployment]
-*   **The Problem:** Frequent application crashes during traffic spikes.
-*   **The Solution:** Implemented a Kubernetes cluster with Horizontal Pod Autoscaling (HPA) and proactive Datadog monitoring.
-*   **The Result:** Achieved 99.9% uptime during peak loads.
-*   👉 [Link to Repo]
+#### 📖 Book Review App — Production AWS Deployment (Capstone)
+**[github.com/nkydigitech/book-review-app](https://github.com/nkydigitech/book-review-app)**
+
+Production-grade, highly available deployment of a three-tier web application on AWS — zero manual console steps, everything automated end-to-end.
+
+- **Stack:** Terraform, AWS EKS, RDS Aurora (MySQL-compatible), Azure DevOps Pipelines, Kubernetes, Docker
+- **Infrastructure built:** EKS cluster with managed worker nodes, Aurora MySQL with security group controls, Terraform modules for all provisioning
+- **Pipeline:** Azure DevOps CI/CD — Terraform infra provisioning stage + app deployment to EKS via kubectl manifests
+- **Architecture:** Three-tier (frontend + backend containers on EKS, Aurora MySQL for persistence), exposed via AWS LoadBalancer
+- **Outcome:** Fully automated path from code push to live app — no clicks, no manual steps
+
+---
+
+#### 📚 Ansible Learning Guide
+**[nkydigitech.github.io/ansible-guide](https://nkydigitech.github.io/ansible-guide/)** &nbsp;|&nbsp; [GitHub Repo](https://github.com/nkydigitech/ansible-guide)
+
+A structured 15-module Ansible curriculum — beginner to production-ready — built with MkDocs Material and deployed on GitHub Pages.
+
+- **Stack:** MkDocs Material 9.7.6, GitHub Pages, YAML, Shell
+- **Coverage:** Ad-hoc Commands → Inventory → Playbooks → Roles → Jinja2 Templates → Vault (AES-256) → Dynamic Inventory → Collections → Capstone Project
+- **Built for:** DevOps students who need real structure, not scattered blog posts
+
+---
+
+#### 🧪 Ansible Practical Lab
+**[nkydigitech.github.io/ansible-lab](https://nkydigitech.github.io/ansible-lab/)** &nbsp;|&nbsp; [GitHub Repo](https://github.com/nkydigitech/ansible_practical)
+
+A hands-on lab companion site with 5 core modules, 4 exercises with real terminal output, and a full command cheatsheet — 100% free and open source.
+
+- **Stack:** HTML, GitHub Pages
+- **Labs:** Nginx deployment (idempotency demo), Multi-role project structure, Vault AES-256 encryption, Ansible Galaxy community roles
+- **Modules:** Fundamentals, Playbooks & Variables, Roles, Vault & Security, Galaxy & Dynamic Inventory
+
+---
+
+#### 🎗️ GEORGEL Cancer Foundation Website (Pro Bono)
+**[georgelcancerfoundation.org](https://www.georgelcancerfoundation.org/)** &nbsp;|&nbsp; [GitHub Repo](https://github.com/nkydigitech/georgel-cancer-foundation)
+
+Full website build and deployment for a Nigerian cancer advocacy foundation — free cancer screenings, Pink October campaigns, and community support programs.
+
+- **Stack:** HTML, CSS, GitHub Pages, Custom Domain
+- **Engineering work:** DNS migration from EasyWP to GitHub Pages, custom domain configuration, HTTPS provisioning, full production deployment
+- **Impact:** Live public-facing site serving a health nonprofit in Nigeria
 
 ---
 
