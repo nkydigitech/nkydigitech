@@ -1,5 +1,5 @@
 # Hi, I'm Nkechi Anna Ahanonye 👋 
-### Cloud, DevOps & AI Consultant | Infrastructure Architect | Engineering Mentor
+### Cloud & DevOps Engineer | AWS · Ansible · Terraform · K8s | Agentic AI Automation | Training the Next Generation of African DevOps Engineers | Open to Remote Roles
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
@@ -102,7 +102,7 @@ I believe that reliability is a mindset. As a **Technical Lead & Mentor at DevOp
 ---
 
 ### 📩 Let's Connect & Build
-If you're looking for infrastructure that scales without the stress, or if you want to discuss how Agentic AI is transforming DevOps, let's talk.
+If you're looking for a Cloud & DevOps Engineer who can architect, automate, and document production infrastructure that scales without the stress — or if you want to discuss how Agentic AI is transforming DevOps — let's talk. Open to Remote Roles.
 
 - **LinkedIn:** [linkedin.com/in/nkechiahanonye](https://www.linkedin.com/in/nkechiahanonye)
 - **Portfolio:** [nkydigitech.github.io/nky-portfolio](https://nkydigitech.github.io/nky-portfolio/)
