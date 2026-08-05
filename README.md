@@ -1,60 +1,146 @@
-<h1 align="center">Hi, I'm Nkechi Anna Ahanonye 👋</h1>
+# Hi, I'm Nkechi Anna Ahanonye 👋
 
-<p align="center">
-  <strong>Cloud & DevOps Engineer | I turn 3 AM-breaking deploys into 1-min pipelines</strong><br/>
-  <code>Stop SSH-ing into prod → Lint → Dry-Run → Deploy</code>
-</p>
+**Cloud & DevOps Engineer | AWS · Ansible · Terraform · K8s | Training the Next Generation of African DevOps Engineers | Open to Remote Roles**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-EC2%20%7C%20RDS-FF9900?style=flat-square&logo=amazon-aws" />
-  <img src="https://img.shields.io/badge/Ansible-15%20Modules-EE0000?style=flat-square&logo=ansible" />
-  <img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?style=flat-square&logo=terraform" />
-  <img src="https://img.shields.io/badge/K8s-k3s-326CE5?style=flat-square&logo=kubernetes" />
-  <img src="https://img.shields.io/badge/Actions-1m%2018s-2088FF?style=flat-square&logo=github-actions" />
+<p>
+  <img src="https://img.shields.io/badge/AWS-EC2%20%7C%20RDS%20%7C%20VPC-FF9900?style=flat&logo=amazon-aws" />
+  <img src="https://img.shields.io/badge/Ansible-15%20Modules-EE0000?style=flat&logo=ansible" />
+  <img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?style=flat&logo=terraform" />
+  <img src="https://img.shields.io/badge/Pipeline-2m%2011s%20%E2%86%92%201m%2018s-2088FF?style=flat&logo=github-actions" />
 </p>
 
 ---
 
-### 🚀 I build infra that doesn't break at 2 AM
+## 🚀 The Mission
 
-15 years cybercafe → **real users don't care about stack, they care it works.**
+I build infrastructure that doesn't break at 2 AM.
 
-Now: **1-min pipelines, 6 checks before prod, zero SSH.**
+15 years running a cybercafe taught me something I still carry into every deployment: real users don't care about your stack. They care that things just work. That pulled me from managing physical machines into automating cloud infrastructure, and it's why I'm particular about building systems that hold up under pressure.
 
-> **Proof:** `ansible_practical` — 2m 11s ❌ → 1m 18s ✅  
-> **Live:** https://github.com/nkydigitech/ansible_practical/actions
+Today I help remote teams (UK, US, EMEA) stop SSH-ing into prod. I turn manual, 3 AM-breaking deploys into **1-min automated pipelines: Lint → Dry-Run → Deploy** with GitHub Actions + Ansible + Terraform.
 
-### 🛠 Stack
-**Ansible · Terraform · AWS · GitHub Actions · Docker · k3s · Linux · Nginx**
-**Monitoring:** Datadog · Prometheus · Grafana · ArgoCD
-**Real tool:** Python · Groq Llama 3.3 → Notion (30 sec)
+Ansible is where I've gone deepest. I've built full multi-service deployment pipelines, debugged real Nginx and MySQL production issues, and turned that experience into free training that engineers across Africa are actually using.
 
-### 🌟 Featured — 6 repos (all real)
+> **Real Proof:** `ansible_practical` — Run #1 Failed 2m 11s ❌ → Run #2 Passed 1m 18s ✅  
+> Live: https://github.com/nkydigitech/ansible_practical/actions | Code: https://github.com/nkydigitech/ansible_practical
 
-**1. 🚀 ansible_practical — THE PIPELINE**
-Code: https://github.com/nkydigitech/ansible_practical | Actions: https://github.com/nkydigitech/ansible_practical/actions
+---
 
-**2. 📚 ansible-guide — 15-Module Lab**
-Live: https://nkydigitech.github.io/ansible-guide/
+## 🛠 Technical Arsenal
 
-**3. 🏗 3-Tier AWS — 60% faster**
-Terraform: https://github.com/nkydigitech/dmi-cohort2-terraform-assignments
+| Category | Tools & Technologies |
+|---|---|
+| **Cloud Platforms** | AWS (EC2, RDS, VPC, IAM, ALB, S3) |
+| **Infrastructure as Code** | Terraform, Ansible |
+| **Containerization** | Docker, Kubernetes (k3s) |
+| **CI/CD Pipelines** | GitHub Actions (yamllint, ansible-lint, syntax-check, --check --diff), Jenkins |
+| **Agentic AI / LLMs** | Claude, LangChain, MCP, Groq/Llama — Real: KB Auto-Builder |
+| **Monitoring & Logging** | Datadog, Prometheus, Grafana |
+| **Scripting & OS** | Python, Bash, Linux (Ubuntu), Nginx, MySQL |
 
-**4. ☸ devops-self-healing-k8s**
-https://github.com/nkydigitech/devops-self-healing-k8s
+---
 
-**5. 📊 petclinic-platform — GitOps + Observability**
-https://github.com/nkydigitech/petclinic-platform
+## 🌟 Featured Engineering Solutions
 
-**6. 🧠 devops-kb-builder — Real AI tool**
-https://github.com/nkydigitech/devops-kb-builder
+Real projects. Real deployments. Live in production.
 
-### 🎓 DMI Mentor
-Audited 40+ IaC repos · 30+ engineers across Africa
+### 🚀 Ansible CI/CD Pipeline — 2m 11s ❌ → 1m 18s ✅ [NEW - PIN THIS]
 
-<p align="center">
-  <a href="https://nkydigitech.github.io/nky-portfolio/">Portfolio</a> • 
-  <a href="https://www.linkedin.com/in/nkechiahanonye">LinkedIn</a>
-</p>
+🔗 https://github.com/nkydigitech/ansible_practical
 
-<p align="center"><i>"Reliability isn't a feature — it's the product."</i></p>
+Lint → Dry-Run → Deploy template reused as team standard. 6 checks before prod, zero SSH. This is the pipeline from my LinkedIn post.
+
+---
+
+### 📖 Book Review App — Production AWS Deployment (Capstone)
+
+🔗 https://github.com/nkydigitech/book-review-app
+
+Production-grade, highly available deployment of a three-tier web application on AWS — zero manual console steps, everything automated end-to-end.
+
+- **Stack:** Terraform, AWS EKS, RDS Aurora (MySQL-compatible), Azure DevOps Pipelines, Kubernetes, Docker
+- **Infrastructure built:** EKS cluster with managed worker nodes, Aurora MySQL with security group controls, Terraform modules
+- **Pipeline:** Azure DevOps CI/CD — Terraform infra provisioning + app deployment to EKS
+- **Architecture:** Three-tier (frontend + backend on EKS, Aurora MySQL), exposed via AWS LoadBalancer
+- **Outcome:** Fully automated path from code push to live app
+
+### 📚 Ansible Learning Guide — 15-Module Masterclass
+
+🔗 https://nkydigitech.github.io/ansible-guide
+
+A structured 15-module Ansible curriculum — beginner to production-ready — built with MkDocs Material.
+
+- **Stack:** MkDocs Material 9.7.6, GitHub Pages, YAML, Shell
+- **Coverage:** Ad-hoc Commands → Inventory → Playbooks → Roles → Jinja2 Templates → Vault (AES-256) → Dynamic Inventory → Collections → Capstone
+- **Built for:** DevOps students who need real structure
+
+### 🧪 Ansible Practical Lab
+
+🔗 https://nkydigitech.github.io/ansible-lab
+
+A hands-on lab companion with 5 core modules, 4 exercises with real terminal output, and a full cheatsheet — 100% free.
+
+- **Stack:** HTML, GitHub Pages
+- **Labs:** Nginx deployment (idempotency demo), Multi-role project, Vault AES-256, Ansible Galaxy roles
+- **Modules:** Fundamentals, Playbooks & Variables, Roles, Vault & Security, Galaxy & Dynamic Inventory
+
+### 🎓 Ultimate DevOps Learning Hub
+
+🔗 https://nkydigitech.github.io/ultimate-devops-learning-hub
+
+A 4-phase DevOps curriculum covering cloud fundamentals, IaC, containers and orchestration, and Agentic AI + MCP.
+
+- **Stack:** HTML, GitHub Pages, Python
+- **Phases:** Cloud & Linux Fundamentals → IaC (Terraform & Ansible) → Docker & Kubernetes → Agentic AI + MCP
+- **Built for:** African engineers who want a complete path from zero to production-ready
+
+### 🏗 3-Tier AWS Architecture with Terraform
+
+🔗 https://github.com/nkydigitech/dmi-cohort2-terraform-assignments
+
+Full 3-tier AWS infrastructure (EC2 + RDS + ALB) using Terraform — 33 resources provisioned automatically, zero manual setup.
+
+- **Stack:** Terraform, AWS (EC2, RDS, VPC, IAM, ALB, S3)
+- **What it proves:** End-to-end infra automation — VPC to ALB to RDS, all in code
+
+### 🤖 Agentic DevOps Knowledge Base Builder
+
+A Python-based AI agent leveraging Groq's Llama model and the Notion API to auto-generate structured DevOps knowledge base entries.
+
+- **Stack:** Python, Groq Llama, Notion API, MCP
+- **What it does:** Turns hours of manual docs into 30-second automated workflow. Submitted to Notion MCP Challenge on DEV.to — Real project, free tools only.
+
+### 🎗 GEORGEL Cancer Foundation Website (Pro Bono)
+
+🔗 https://georgelcancerfoundation.org
+
+Full website build and deployment for a Nigerian cancer advocacy foundation.
+
+- **Stack:** HTML, CSS, GitHub Pages, Custom Domain
+- **Engineering work:** DNS migration from EasyWP to GitHub Pages, custom domain, HTTPS, full production deployment
+- **Impact:** Live site serving health nonprofit — 99.9% uptime, collaboration with JUTH and Ministry of Health
+
+---
+
+## 🎓 Mentorship & Leadership
+
+I believe reliability is a mindset. As a Technical Lead & Mentor at DevOps Micro Internship (DMI):
+
+- Auditing 40+ IaC repositories for production-grade quality
+- Guiding 30+ engineers through microservices and cloud orchestration
+- Building free, open-source training materials that engineers across Africa actually use
+
+## 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nkydigitech&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nkydigitech&layout=compact&theme=tokyonight&hide_border=true)
+
+## 📩 Let's Connect & Build
+
+If you're looking for a Cloud & DevOps Engineer who can architect, automate, and document production infrastructure that scales — let's talk. Open to remote roles.
+
+- **LinkedIn:** https://www.linkedin.com/in/nkechiahanonye
+- **Portfolio:** https://nkydigitech.github.io/nky-portfolio/
+- **Email:** nahanonye@gmail.com
+
+*"Reliability isn't a feature — it's the product."*
