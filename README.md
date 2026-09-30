@@ -44,81 +44,51 @@ Ansible is where I've gone deepest. I've built full multi-service deployment pip
 
 Real projects. Real deployments. Live in production.
 
-### 🚀 Ansible CI/CD Pipeline — 2m 11s ❌ → 1m 18s ✅ [NEW - PIN THIS]
+### 🤖 agentcode — Security-First AI Agent on Amazon Bedrock AgentCore
+
+🔗 https://github.com/nkydigitech/agentcode
+
+Strands agent running Claude Opus 4.6 on AWS Bedrock AgentCore — every tool call secured with a different auth pattern (SigV4, OAuth2 M2M), per-request tool authorization via Amazon Verified Permissions, and an agent architected to decline rather than guess. Built from the AWS re:Invent SEC307 security workshop — deployed, tested, and documented with 64 real AWS console screenshots.
+
+### 🚀 Ansible CI/CD Pipeline — 2m 11s ❌ → 1m 18s ✅
 
 🔗 https://github.com/nkydigitech/ansible_practical
 
-Lint → Dry-Run → Deploy template reused as team standard. 6 checks before prod, zero SSH. This is the pipeline from my LinkedIn post.
+Lint → Dry-Run → Deploy template reused as team standard. 6 checks before prod, zero SSH. Real run logs: failed 2m 11s → passing 1m 18s.
 
----
+### ☸️ Production-Ready AI Agents on EKS
 
-### 📖 Book Review App — Production AWS Deployment (Capstone)
+🔗 https://github.com/nkydigitech/production-ready-ai-agents-eks
 
-🔗 https://github.com/nkydigitech/book-review-app
+Multi-agent AI system on Kubernetes — 7 agents (customer, supervisor, RAG, memory, knowledge-graph, MCP, strands) deployed to both minikube and a real AWS EKS cluster. Cost-guard discipline kept the entire project at $0.55 of a $1.00 budget.
 
-Production-grade, highly available deployment of a three-tier web application on AWS — zero manual console steps, everything automated end-to-end.
+### ⚡ Serverless Agentic AI — Choreography vs Orchestration
 
-- **Stack:** Terraform, AWS EKS, RDS Aurora (MySQL-compatible), Azure DevOps Pipelines, Kubernetes, Docker
-- **Infrastructure built:** EKS cluster with managed worker nodes, Aurora MySQL with security group controls, Terraform modules
-- **Pipeline:** Azure DevOps CI/CD — Terraform infra provisioning + app deployment to EKS
-- **Architecture:** Three-tier (frontend + backend on EKS, Aurora MySQL), exposed via AWS LoadBalancer
-- **Outcome:** Fully automated path from code push to live app
+🔗 https://github.com/nkydigitech/aws-serverless-agentic-ai
 
-### 📚 Ansible Learning Guide — 15-Module Masterclass
+Event-driven agent patterns on AWS serverless — EventBridge choreography vs Step Functions orchestration, Lambda agents in Python.
 
-🔗 https://nkydigitech.github.io/ansible-guide
+### 🛒 CloudMart — GitOps E-Commerce on Kubernetes
 
-A structured 15-module Ansible curriculum — beginner to production-ready — built with MkDocs Material.
+🔗 https://github.com/nkydigitech/cloudmart
 
-- **Stack:** MkDocs Material 9.7.6, GitHub Pages, YAML, Shell
-- **Coverage:** Ad-hoc Commands → Inventory → Playbooks → Roles → Jinja2 Templates → Vault (AES-256) → Dynamic Inventory → Collections → Capstone
-- **Built for:** DevOps students who need real structure
+Cloud-native e-commerce on Minikube — Docker, ArgoCD, NGINX Ingress, FastAPI, PostgreSQL 15, with a Jumia-style UI, real images, Naira prices and login/signup. Live: https://nkydigitech.github.io/cloudmart/
 
-### 🧪 Ansible Practical Lab
+### 🗳 Ballot Trust 360 — Nigerian Election Trust Suite
 
-🔗 https://nkydigitech.github.io/ansible-lab
+🔗 https://github.com/nkydigitech/ballot-trust-360-nigeria
 
-A hands-on lab companion with 5 core modules, 4 exercises with real terminal output, and a full cheatsheet — 100% free.
+Complete civic trust platform built for Hackaholics 7.0 — secure accreditation, EC8A result-sheet verification, AI-generated fictional candidates. All Nigerian Edition.
 
-- **Stack:** HTML, GitHub Pages
-- **Labs:** Nginx deployment (idempotency demo), Multi-role project, Vault AES-256, Ansible Galaxy roles
-- **Modules:** Fundamentals, Playbooks & Variables, Roles, Vault & Security, Galaxy & Dynamic Inventory
+Also: pro-bono production deployment for the GEORGEL Cancer Foundation (https://georgelcancerfoundation.org).
 
-### 🎓 Ultimate DevOps Learning Hub
+### 📚 Teaching — the other half of my brand
 
-🔗 https://nkydigitech.github.io/ultimate-devops-learning-hub
-
-A 4-phase DevOps curriculum covering cloud fundamentals, IaC, containers and orchestration, and Agentic AI + MCP.
-
-- **Stack:** HTML, GitHub Pages, Python
-- **Phases:** Cloud & Linux Fundamentals → IaC (Terraform & Ansible) → Docker & Kubernetes → Agentic AI + MCP
-- **Built for:** African engineers who want a complete path from zero to production-ready
-
-### 🏗 3-Tier AWS Architecture with Terraform
-
-🔗 https://github.com/nkydigitech/dmi-cohort2-terraform-assignments
-
-Full 3-tier AWS infrastructure (EC2 + RDS + ALB) using Terraform — 33 resources provisioned automatically, zero manual setup.
-
-- **Stack:** Terraform, AWS (EC2, RDS, VPC, IAM, ALB, S3)
-- **What it proves:** End-to-end infra automation — VPC to ALB to RDS, all in code
-
-### 🤖 Agentic DevOps Knowledge Base Builder
-
-A Python-based AI agent leveraging Groq's Llama model and the Notion API to auto-generate structured DevOps knowledge base entries.
-
-- **Stack:** Python, Groq Llama, Notion API, MCP
-- **What it does:** Turns hours of manual docs into 30-second automated workflow. Submitted to Notion MCP Challenge on DEV.to — Real project, free tools only.
-
-### 🎗 GEORGEL Cancer Foundation Website (Pro Bono)
-
-🔗 https://georgelcancerfoundation.org
-
-Full website build and deployment for a Nigerian cancer advocacy foundation.
-
-- **Stack:** HTML, CSS, GitHub Pages, Custom Domain
-- **Engineering work:** DNS migration from EasyWP to GitHub Pages, custom domain, HTTPS, full production deployment
-- **Impact:** Live site serving health nonprofit — 99.9% uptime, collaboration with JUTH and Ministry of Health
+- 15-Module Ansible Masterclass: https://nkydigitech.github.io/ansible-guide/
+- Free Ansible Lab with real production debugging: https://nkydigitech.github.io/ansible-lab/
+- Ultimate DevOps Learning Hub (4 phases, ends with Agentic AI + MCP): https://nkydigitech.github.io/ultimate-devops-learning-hub/
+- 17-repo Blueprint series: Ansible, Terraform, AWS, Azure, Kubernetes, Docker, Linux, GitHub, and more
+- Co-mentor at DMI — auditing 40+ IaC repos, guiding 30+ engineers
 
 ---
 
