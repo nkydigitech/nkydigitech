@@ -13,7 +13,7 @@
 
 ## 🚀 The Mission
 
-I build infrastructure that doesn't break at 2 AM.
+I build infrastructure that doesn't break at 3 AM.
 
 15 years running a cybercafe taught me something I still carry into every deployment: real users don't care about your stack. They care that things just work. That pulled me from managing physical machines into automating cloud infrastructure, and it's why I'm particular about building systems that hold up under pressure.
 
